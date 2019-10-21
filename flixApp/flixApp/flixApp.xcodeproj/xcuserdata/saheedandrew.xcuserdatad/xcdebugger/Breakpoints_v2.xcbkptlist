@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A709BF30-DC63-4378-980D-42B39D3209CD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A98C002-DCA4-4693-903B-84F9AB3AFA96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flixApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98340B03-581E-4040-939E-C952A4101054"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flixApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "98340B03-581E-4040-939E-C952A4101054 - adf8d272b31bf39f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flixApp.AppDelegate.__allocating_init() -&gt; flixApp.AppDelegate"
+                  moduleName = "flixApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saheedandrew/Desktop/Codepath/flixApp/flixApp/flixApp/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "98340B03-581E-4040-939E-C952A4101054 - f041f8849bbb13c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flixApp.AppDelegate.init() -&gt; flixApp.AppDelegate"
+                  moduleName = "flixApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saheedandrew/Desktop/Codepath/flixApp/flixApp/flixApp/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "98340B03-581E-4040-939E-C952A4101054 - 774c36c29876db5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flixApp.AppDelegate.__deallocating_deinit"
+                  moduleName = "flixApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saheedandrew/Desktop/Codepath/flixApp/flixApp/flixApp/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "98340B03-581E-4040-939E-C952A4101054 - c666088b696a2b75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "flixApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saheedandrew/Desktop/Codepath/flixApp/flixApp/flixApp/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

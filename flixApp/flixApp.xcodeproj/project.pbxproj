@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18647DD3235AAFFB0059E5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18647DD2235AAFFB0059E5D7 /* AppDelegate.swift */; };
+		18647DD5235AAFFB0059E5D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18647DD4235AAFFB0059E5D7 /* SceneDelegate.swift */; };
+		18647DD7235AAFFB0059E5D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18647DD6235AAFFB0059E5D7 /* ContentView.swift */; };
+		18647DD9235AAFFD0059E5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18647DD8235AAFFD0059E5D7 /* Assets.xcassets */; };
+		18647DDC235AAFFD0059E5D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18647DDB235AAFFD0059E5D7 /* Preview Assets.xcassets */; };
+		18647DDF235AAFFD0059E5D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18647DDD235AAFFD0059E5D7 /* LaunchScreen.storyboard */; };
+		18647DEA235AAFFD0059E5D7 /* flixAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18647DE9235AAFFD0059E5D7 /* flixAppTests.swift */; };
+		18647DF5235AAFFE0059E5D7 /* flixAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18647DF4235AAFFE0059E5D7 /* flixAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18647DE6235AAFFD0059E5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18647DC7235AAFFB0059E5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18647DCE235AAFFB0059E5D7;
+			remoteInfo = flixApp;
+		};
+		18647DF1235AAFFE0059E5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18647DC7235AAFFB0059E5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18647DCE235AAFFB0059E5D7;
+			remoteInfo = flixApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18647DCF235AAFFB0059E5D7 /* flixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18647DD2235AAFFB0059E5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18647DD4235AAFFB0059E5D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18647DD6235AAFFB0059E5D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18647DD8235AAFFD0059E5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18647DDB235AAFFD0059E5D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18647DDE235AAFFD0059E5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18647DE0235AAFFD0059E5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18647DE5235AAFFD0059E5D7 /* flixAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18647DE9235AAFFD0059E5D7 /* flixAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixAppTests.swift; sourceTree = "<group>"; };
+		18647DEB235AAFFD0059E5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18647DF0235AAFFD0059E5D7 /* flixAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18647DF4235AAFFE0059E5D7 /* flixAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixAppUITests.swift; sourceTree = "<group>"; };
+		18647DF6235AAFFE0059E5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18647DCC235AAFFB0059E5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18647DE2235AAFFD0059E5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18647DED235AAFFD0059E5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18647DC6235AAFFB0059E5D7 = {
+			isa = PBXGroup;
+			children = (
+				18647DD1235AAFFB0059E5D7 /* flixApp */,
+				18647DE8235AAFFD0059E5D7 /* flixAppTests */,
+				18647DF3235AAFFE0059E5D7 /* flixAppUITests */,
+				18647DD0235AAFFB0059E5D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18647DD0235AAFFB0059E5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18647DCF235AAFFB0059E5D7 /* flixApp.app */,
+				18647DE5235AAFFD0059E5D7 /* flixAppTests.xctest */,
+				18647DF0235AAFFD0059E5D7 /* flixAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18647DD1235AAFFB0059E5D7 /* flixApp */ = {
+			isa = PBXGroup;
+			children = (
+				18647DD2235AAFFB0059E5D7 /* AppDelegate.swift */,
+				18647DD4235AAFFB0059E5D7 /* SceneDelegate.swift */,
+				18647DD6235AAFFB0059E5D7 /* ContentView.swift */,
+				18647DD8235AAFFD0059E5D7 /* Assets.xcassets */,
+				18647DDD235AAFFD0059E5D7 /* LaunchScreen.storyboard */,
+				18647DE0235AAFFD0059E5D7 /* Info.plist */,
+				18647DDA235AAFFD0059E5D7 /* Preview Content */,
+			);
+			path = flixApp;
+			sourceTree = "<group>";
+		};
+		18647DDA235AAFFD0059E5D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18647DDB235AAFFD0059E5D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18647DE8235AAFFD0059E5D7 /* flixAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18647DE9235AAFFD0059E5D7 /* flixAppTests.swift */,
+				18647DEB235AAFFD0059E5D7 /* Info.plist */,
+			);
+			path = flixAppTests;
+			sourceTree = "<group>";
+		};
+		18647DF3235AAFFE0059E5D7 /* flixAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18647DF4235AAFFE0059E5D7 /* flixAppUITests.swift */,
+				18647DF6235AAFFE0059E5D7 /* Info.plist */,
+			);
+			path = flixAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18647DCE235AAFFB0059E5D7 /* flixApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18647DF9235AAFFE0059E5D7 /* Build configuration list for PBXNativeTarget "flixApp" */;
+			buildPhases = (
+				18647DCB235AAFFB0059E5D7 /* Sources */,
+				18647DCC235AAFFB0059E5D7 /* Frameworks */,
+				18647DCD235AAFFB0059E5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flixApp;
+			productName = flixApp;
+			productReference = 18647DCF235AAFFB0059E5D7 /* flixApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18647DE4235AAFFD0059E5D7 /* flixAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18647DFC235AAFFE0059E5D7 /* Build configuration list for PBXNativeTarget "flixAppTests" */;
+			buildPhases = (
+				18647DE1235AAFFD0059E5D7 /* Sources */,
+				18647DE2235AAFFD0059E5D7 /* Frameworks */,
+				18647DE3235AAFFD0059E5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18647DE7235AAFFD0059E5D7 /* PBXTargetDependency */,
+			);
+			name = flixAppTests;
+			productName = flixAppTests;
+			productReference = 18647DE5235AAFFD0059E5D7 /* flixAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18647DEF235AAFFD0059E5D7 /* flixAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18647DFF235AAFFE0059E5D7 /* Build configuration list for PBXNativeTarget "flixAppUITests" */;
+			buildPhases = (
+				18647DEC235AAFFD0059E5D7 /* Sources */,
+				18647DED235AAFFD0059E5D7 /* Frameworks */,
+				18647DEE235AAFFD0059E5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18647DF2235AAFFE0059E5D7 /* PBXTargetDependency */,
+			);
+			name = flixAppUITests;
+			productName = flixAppUITests;
+			productReference = 18647DF0235AAFFD0059E5D7 /* flixAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18647DC7235AAFFB0059E5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Saheed andrew";
+				TargetAttributes = {
+					18647DCE235AAFFB0059E5D7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					18647DE4235AAFFD0059E5D7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 18647DCE235AAFFB0059E5D7;
+					};
+					18647DEF235AAFFD0059E5D7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 18647DCE235AAFFB0059E5D7;
+					};
+				};
+			};
+			buildConfigurationList = 18647DCA235AAFFB0059E5D7 /* Build configuration list for PBXProject "flixApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18647DC6235AAFFB0059E5D7;
+			productRefGroup = 18647DD0235AAFFB0059E5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18647DCE235AAFFB0059E5D7 /* flixApp */,
+				18647DE4235AAFFD0059E5D7 /* flixAppTests */,
+				18647DEF235AAFFD0059E5D7 /* flixAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18647DCD235AAFFB0059E5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18647DDF235AAFFD0059E5D7 /* LaunchScreen.storyboard in Resources */,
+				18647DDC235AAFFD0059E5D7 /* Preview Assets.xcassets in Resources */,
+				18647DD9235AAFFD0059E5D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18647DE3235AAFFD0059E5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18647DEE235AAFFD0059E5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18647DCB235AAFFB0059E5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18647DD3235AAFFB0059E5D7 /* AppDelegate.swift in Sources */,
+				18647DD5235AAFFB0059E5D7 /* SceneDelegate.swift in Sources */,
+				18647DD7235AAFFB0059E5D7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18647DE1235AAFFD0059E5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18647DEA235AAFFD0059E5D7 /* flixAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18647DEC235AAFFD0059E5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18647DF5235AAFFE0059E5D7 /* flixAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18647DE7235AAFFD0059E5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18647DCE235AAFFB0059E5D7 /* flixApp */;
+			targetProxy = 18647DE6235AAFFD0059E5D7 /* PBXContainerItemProxy */;
+		};
+		18647DF2235AAFFE0059E5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18647DCE235AAFFB0059E5D7 /* flixApp */;
+			targetProxy = 18647DF1235AAFFE0059E5D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18647DDD235AAFFD0059E5D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18647DDE235AAFFD0059E5D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18647DF7235AAFFE0059E5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18647DF8235AAFFE0059E5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18647DFA235AAFFE0059E5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"flixApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P9SR4BTUC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = flixApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewsaheed-gmail.com.flixApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18647DFB235AAFFE0059E5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"flixApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P9SR4BTUC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = flixApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewsaheed-gmail.com.flixApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18647DFD235AAFFE0059E5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P9SR4BTUC;
+				INFOPLIST_FILE = flixAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.flixAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flixApp.app/flixApp";
+			};
+			name = Debug;
+		};
+		18647DFE235AAFFE0059E5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P9SR4BTUC;
+				INFOPLIST_FILE = flixAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.flixAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flixApp.app/flixApp";
+			};
+			name = Release;
+		};
+		18647E00235AAFFE0059E5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P9SR4BTUC;
+				INFOPLIST_FILE = flixAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.flixAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flixApp;
+			};
+			name = Debug;
+		};
+		18647E01235AAFFE0059E5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P9SR4BTUC;
+				INFOPLIST_FILE = flixAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.flixAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flixApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18647DCA235AAFFB0059E5D7 /* Build configuration list for PBXProject "flixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18647DF7235AAFFE0059E5D7 /* Debug */,
+				18647DF8235AAFFE0059E5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18647DF9235AAFFE0059E5D7 /* Build configuration list for PBXNativeTarget "flixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18647DFA235AAFFE0059E5D7 /* Debug */,
+				18647DFB235AAFFE0059E5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18647DFC235AAFFE0059E5D7 /* Build configuration list for PBXNativeTarget "flixAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18647DFD235AAFFE0059E5D7 /* Debug */,
+				18647DFE235AAFFE0059E5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18647DFF235AAFFE0059E5D7 /* Build configuration list for PBXNativeTarget "flixAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18647E00235AAFFE0059E5D7 /* Debug */,
+				18647E01235AAFFE0059E5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18647DC7235AAFFB0059E5D7 /* Project object */;
+}
